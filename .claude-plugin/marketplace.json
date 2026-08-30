@@ -1,0 +1,15 @@
+{
+  "name": "valentine-brands",
+  "owner": {
+    "name": "Valentine Brands",
+    "url": "https://github.com/Valentine-Brands"
+  },
+  "description": "Public skills maintained by Valentine Brands.",
+  "plugins": [
+    {
+      "name": "company-skills",
+      "source": "./plugins/company-skills",
+      "description": "Guided workflows for creating and maintaining company applications."
+    }
+  ]
+}

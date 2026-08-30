@@ -1,0 +1,12 @@
+{
+  "name": "company-skills",
+  "description": "Shared workflows for creating and maintaining company applications.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Valentine Brands",
+    "url": "https://github.com/Valentine-Brands"
+  },
+  "homepage": "https://github.com/Valentine-Brands/company-skills",
+  "repository": "https://github.com/Valentine-Brands/company-skills",
+  "keywords": ["company", "skills", "application", "starter"]
+}

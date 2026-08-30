@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Company App"
+  short_description: "Create a new app from the company starter"
+  default_prompt: "Use $create-company-app to create a new company application."

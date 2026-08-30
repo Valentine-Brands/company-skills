@@ -1,0 +1,22 @@
+{
+  "name": "company-skills",
+  "version": "0.1.0",
+  "description": "Shared workflows for creating and maintaining company applications.",
+  "author": {
+    "name": "Valentine Brands",
+    "url": "https://github.com/Valentine-Brands"
+  },
+  "homepage": "https://github.com/Valentine-Brands/company-skills",
+  "repository": "https://github.com/Valentine-Brands/company-skills",
+  "keywords": ["company", "skills", "application", "starter"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Company Skills",
+    "shortDescription": "Create and maintain company applications.",
+    "longDescription": "Company Skills provides guided workflows for creating applications from the public company starter repository.",
+    "developerName": "Valentine Brands",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": "Create a new company application."
+  }
+}

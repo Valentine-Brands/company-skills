@@ -12,6 +12,10 @@ Creates a new local application from the public [`company-app-template`](https:/
 
 Runs the checks already defined by an existing application and reports what passed, failed, or was not tested. It does not change the application unless the user separately asks for fixes.
 
+### `change-company-database`
+
+Prepares and verifies versioned Supabase Postgres migrations for a company application that normally uses one hosted database. It keeps live database access narrow and requires explicit authorization before remote changes.
+
 ## Install in Claude Code
 
 ```text

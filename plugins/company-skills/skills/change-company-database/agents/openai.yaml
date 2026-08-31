@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Company Database"
+  short_description: "Safely change a company Supabase database"
+  default_prompt: "Use $change-company-database to prepare and verify this Supabase database change."

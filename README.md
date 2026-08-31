@@ -8,6 +8,10 @@ Public Agent Skills maintained by Valentine Brands for Claude Code and Codex.
 
 Creates a new local application from the public [`company-app-template`](https://github.com/Valentine-Brands/company-app-template) repository and guides the agent through adapting it to the requested product.
 
+### `verify-company-app`
+
+Runs the checks already defined by an existing application and reports what passed, failed, or was not tested. It does not change the application unless the user separately asks for fixes.
+
 ## Install in Claude Code
 
 ```text

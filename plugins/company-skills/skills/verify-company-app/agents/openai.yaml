@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Company App"
+  short_description: "Check a company app before calling it complete"
+  default_prompt: "Use $verify-company-app to verify this application and report what was not tested."

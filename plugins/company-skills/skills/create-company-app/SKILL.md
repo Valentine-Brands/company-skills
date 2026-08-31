@@ -9,12 +9,13 @@ Create the project from `https://github.com/Valentine-Brands/company-app-templat
 
 ## Workflow
 
-1. Establish the application name, business purpose, destination directory, and required user-facing behavior. Ask only for choices that materially change the result.
-2. Check the destination before writing. Do not overwrite a non-empty directory.
-3. Run `scripts/create_project.py <destination> --name <project-name>`, resolving the script relative to this `SKILL.md` file. The script copies the starter and initializes a fresh local Git repository.
-4. Inspect the generated `AGENTS.md` and the starter files before choosing a technical stack.
-5. Build the smallest application that satisfies the stated behavior. Keep stack decisions visible in the generated README.
-6. Run the checks documented by the resulting project and report anything that still needs a user decision.
+1. Establish the application name, business purpose, destination directory, intended users, and required user-facing behavior. Ask only for choices that materially change the result.
+2. Clarify whether users must sign in, whether the app connects to outside services, and whether anything must happen automatically at a specific time, such as a daily data import or report.
+3. Check the destination before writing. Do not overwrite a non-empty directory.
+4. Run `scripts/create_project.py <destination> --name <project-name>`, resolving the script relative to this `SKILL.md` file. The script copies the starter and initializes a fresh local Git repository.
+5. Read the generated `AGENTS.md` before selecting dependencies or services. Use its default stack unless a concrete requirement justifies another choice, and document any exception in the generated README.
+6. Build the smallest application that satisfies the stated behavior. Add Supabase, authentication, outside integrations, or automatic time-based tasks only when the requirements need them.
+7. Update the README and `.env.example`, run the checks documented by the resulting project, and report anything that still needs a user decision.
 
 ## Boundaries
 
